@@ -1,7 +1,7 @@
 {
   "name": "path-regexp",
   "description": "This is a very lightweight and fast alternative to the community popular URL path conversion to re.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "path",
     "regexp",
