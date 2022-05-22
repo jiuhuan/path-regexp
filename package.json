@@ -29,13 +29,13 @@
   },
   "author": {
     "name": "Han Bing",
-    "email": "by11880@126.com",
+    "email": "by11880@gmail.com",
     "url": "https://github.com/jiuhuan"
   },
   "homepage": "https://github.com/jiuhuan",
   "repository": {
     "type": "git",
-    "url": "git://github.com/visionmedia/dox.git"
+    "url": "https://github.com/jiuhuan/path-regexp"
   },
   "license": "MIT"
 }
