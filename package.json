@@ -1,0 +1,41 @@
+{
+  "name": "path-regexp",
+  "description": "My project template.",
+  "version": "1.0.0",
+  "keywords": [
+    "path",
+    "regexp",
+    "route"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "jest ./src",
+    "test:cov": "jest --collect-coverage && open ./coverage/lcov-report/index.html",
+    "clean": "rm -rf lib/ coverage/ .nyc_output/",
+    "build": "npm run clean && npm run build:node",
+    "build:node": "babel src --out-dir lib",
+    "bench": "node ./bench/index.js",
+    "min":"terser lib/index.js --compress ecma=2015,computed_props=false > lib/index.min.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.12",
+    "benchmark": "^2.1.4",
+    "jest": "^28.1.0",
+    "terser": "^5.13.1"
+  },
+  "author": {
+    "name": "Han Bing",
+    "email": "by11880@126.com",
+    "url": "https://github.com/jiuhuan"
+  },
+  "homepage": "https://github.com/jiuhuan",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visionmedia/dox.git"
+  },
+  "license": "MIT"
+}

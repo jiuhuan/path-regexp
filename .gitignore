@@ -1,0 +1,10 @@
+/lib/
+
+node_modules/
+coverage/
+.nyc_output/
+.cache/
+.idea/
+.vscode/
+.DS_Store
+package-lock.json
