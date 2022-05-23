@@ -1,7 +1,5 @@
-import bench from 'benchmark'
-
-import { parse } from '../src/index.js'
-
+const { parse } = require('../lib')
+const bench = require('benchmark')
 const { Suite } = bench
 
 new Suite()
